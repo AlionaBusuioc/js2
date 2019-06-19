@@ -1,0 +1,26 @@
+<script>
+    // ES6+
+    class Student{
+        constructor(fullName){
+            this.fullName = fullName;
+            // this.year = year;
+            // this.mark = mark;
+        }
+        isGood(){
+            return this.mark >=7.0;
+        }
+    }
+    // var s = new Student ("John Travolta"); console.log(s);
+    //plain object, literal -> Object
+    var students = [
+        new Student("John Travolta", 1957, 9.7),
+        new Student("Marry Poppins", 1980, 8.0),
+        new Student("Arnold TooLong", 1947, 9.0),
+         new Student("Jilan Jor", 1970, 5.0)
+            // { fullName: "John Travolta", year: 1957, mark: 9.7 },
+            // { fullName: "Marry Poppins", year: 1980, mark: 8.0 },
+            // { fullName: "Arnold TooLong", year: 1947, mark: 9.0 },
+            // { fullName: "Jilan Jor", year: 1970, mark: 5.0 },
+        ];
+        alert(students[0].isGood());
+</script>

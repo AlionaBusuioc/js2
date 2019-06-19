@@ -1,0 +1,22 @@
+/calback / async, await /promise
+//destructuring
+//spread operator "..."
+//arrow functions "=>"
+
+//classes
+//objects
+//inheritance
+//"this" problem
+
+    {/* //call back -> apeleaza invers
+    //Ioc - Inversion of Control
+    ////////////// DIRECT CONTROL ////////
+    //declar
+    function f() {
+        alert();
+    }
+    //direct call
+    f();
+    /////////////INVERTED CONTROL ////////
+    setInterval(f, 1000); */} */}
+     var data =[10,5, -10,20,30]; //Array
